@@ -1,0 +1,45 @@
+.datagrid-grid { table-layout: fixed; font-size: 11px }
+.datagrid-grid td{ cursor: default; line-height: 1.3em; overflow: hidden;white-space:nowrap; }
+.datagrid-grid tr{height:1em;}
+.datagrid-grid .datagrid-grid-head{font-size: 12px;background-color: #F5F5F5;cursor: pointer}
+.datagrid-grid .datagrid-grid-head th{overflow: hidden;}
+.datagrid-grid .datagrid-grid-head i{ float: right}
+.datagrid-grid .datagrid-grid-head .datagrid-filter-bar input,.datagrid-grid .datagrid-grid-head .datagrid-filter-bar select{display: block;padding: 0; margin: 0px; font-size: 12px; width:100%; height: 22px}
+.datagrid-grid .datagrid-grid-head .datagrid-filter-bar select{height: 24px;padding:2px 2px;}
+.datagrid-grid .datagrid-actions-cell { padding: 2px 5px;}
+.datagrid-grid .datagrid-subgrid-control { padding: 2px 5px; text-align: center}
+.datagrid-grid .datagrid-multiselect-control input{margin: 0}
+.datagrid-container {width: auto}
+.datagrid-container .datagrid-loading{ margin: 3px 0 2px 40%;width: 20% }
+.datagrid-container .datagrid-loading .datagrid-loading-progress{ width: 100%; line-height: 20px}
+.datagrid-container .table{ margin: 0 }
+.datagrid-container .datagrid-pager-container{height: 26px; width: 380px; left: 50%; margin-left:-190px; position: absolute}
+.datagrid-container .datagrid-pager-container-norowslist{width: 200px; margin-left:-100px}
+.datagrid-container .datagrid-grid-nav{ margin: 0; background-color: #F5F5F5; background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #A2A2A2; border-image: none; border-radius: 4px 4px 4px 4px; border-style: solid; border-width: 1px; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05); color: #333333; padding: 0 0 1px 1px; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; position: relative; height: 28px}
+.datagrid-container .datagrid-subgrid-row:hover{ background-color: transparent}
+.datagrid-container .datagrid-pager{ margin: 2px 0 0; cursor: pointer}
+.datagrid-container .datagrid-pager .nav{ margin-bottom: 0; padding-bottom: 0}
+.datagrid-container .datagrid-pager i{ margin: 0}
+.datagrid-container .datagrid-pager a{margin: 0 1px; padding: 4px; border: 1px solid #CCCCCC}
+.datagrid-container .datagrid-pager a:hover{background-color: #FAF2CC;}
+.datagrid-container .datagrid-pager a:active{box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);}
+.datagrid-container .datagrid-pager li.active a{ background-color:#F5F5F5}
+.datagrid-container .datagrid-pager li.active a:active{box-shadow: none;}
+.datagrid-container .datagrid-page-counter {font-size: 11px; padding: 2px 0px 0px 4px}
+.datagrid-container .datagrid-page-counter-right {font-size: 11px; padding: 2px 2px 0px 4px}
+.datagrid-container .datagrid-grid-nav .datagrid-page-input{float: left; padding: 1px; margin: 0 0 0 1px; width: 30px; font-size: 11px;text-align: center }
+.datagrid-navBar-buttonsContainer {margin: 2px 0 0}
+.datagrid-navBar-buttonsContainer button{margin-right: 1px}
+.datagrid-container .datagrid-grid-nav .datagrid-pager-rowlist {width: 56px; margin-top: 2px; margin-left:2px; padding: 3px 2px; height: 24px; font-size: 11px}
+.datagrid-pager-container .datagrid-pager ul li {list-style:none;padding-left: 0;}
+.datagrid-container .datagrid-pager-rowlist-label {line-height: 20px; font-size: 11px; margin-top:2px; padding: 2px 0px 0px 4px}
+.datagrid-grid tbody tr.datagrid-row:hover td{background-color:#f5f5f5;}
+.datagrid-grid tbody tr.success:hover td{background-color:#d0e9c6;}
+.datagrid-grid tbody tr.error:hover td{background-color:#ebcccc;}
+.datagrid-grid tbody tr.warning:hover td{background-color:#faf2cc;}
+.datagrid-grid tbody tr.info:hover td{background-color:#c4e3f3;}
+.datagrid-grid caption{font-size: 1.4em;font-weight: bold;line-height: 2em}
+.datagrid-search-bar {padding: 2px}
+.datagrid-search-bar input, .datagrid-search-bar button{padding: 1px 6px;}
+.datagrid-search-bar input{ font-size: 12px}
+.datagrid-search-bar li > a{font-size: 12px; padding-top: 1px; padding-bottom: 1px}
